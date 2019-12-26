@@ -1,0 +1,174 @@
+/* html{
+    padding: 0px;
+    margin: 0px;
+} */
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    background-image: linear-gradient(to right, rgba(11, 71, 139, 0.7), rgba(59, 186, 245, 0.8)),Url("./img/panorama-3094696_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 0px;
+}
+
+header{
+    box-shadow: 0 2px 2px rgba(95, 94, 95, 0.6);
+    color: white;
+    font-size: 1.2rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dew{
+    display: flex;
+    height: 5vh;
+}
+
+.items{
+    margin-left: 1.5rem;
+    padding: 1rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    height: 90vh;
+    color: white;
+    padding-left: 8rem;
+    /* margin-right: 3vw; */
+}
+
+.content h1{
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
+
+.content p{
+    font-size: 1rem;
+    font-weight: lighter;
+    width: 85%;
+    line-height: 1.8rem;
+}
+
+.content button{
+    width: 12vw;
+    padding: 1rem;
+}
+
+#play{
+    margin-right: .5rem;
+}
+
+#transparent{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+}
+
+.segments{
+    height: 35vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    color: white;
+}
+
+#first{
+    background-color: rgba(80 , 6, 165, 0.7);
+    padding: 2rem;
+}
+
+
+#second{
+    background-color:rgb(184 , 65, 252);
+    padding: 2rem;
+}
+
+#third{
+    background-color:rgb(40, 156, 147);
+    padding: 2rem;
+}
+
+#fourth{
+    background-color:#35b8f5;
+    padding: 2rem;
+}
+
+.sub{
+    padding: 1rem;
+}
+
+.why{
+    width: 80vw;
+    margin: auto;
+    height: 40vh;
+}
+
+.quest{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+}
+
+.quest h1{
+    font-size: 2.5rem;
+}
+
+.quest p{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: grey;
+}
+
+.reason{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    grid-gap: 2vw;
+    font-size: 1rem;
+}
+
+.reason h1{
+    font-size:1.5rem;
+}
+
+.reason p{
+    font-size: 1rem;
+    font-weight: lighter;
+    color: grey;
+}
+
+#design{
+    color: rgb(209, 148, 35);
+    font-size: 2.5rem;
+}
+
+#feedback{
+    color: rgb(109, 172, 224);
+    font-size: 2.5rem;
+}
+
+#execute{
+    color: red;
+    font-size: 2.5rem;
+}
+
+.agile{
+    font-size: 2.5rem;
+    color: white;
+    /* padding-top: 2rem; */
+}
